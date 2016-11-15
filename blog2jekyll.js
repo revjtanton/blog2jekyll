@@ -1,8 +1,8 @@
 // blog2jekyll.js
 "use strict"
 
-var consumeJSON = require('./consume_json.js');
-var writePost = require('./write_post.js');
+var consumeJSON = require('./js/consume_json.js');
+var writePost = require('./js/write_post.js');
 
 // Enter the host and path to your RESTful service.
 var options = {

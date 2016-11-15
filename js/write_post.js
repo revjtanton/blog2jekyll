@@ -17,7 +17,7 @@ module.exports = function(dir, posts, callback) {
       }
 
       if (write_post > 0) {
-        var content = fs.readFileSync('post_template.md').toString();
+        var content = fs.readFileSync('./templates/post_template.md').toString();
 
         // Change this to match what you changed in the template file.
         content = content.replace('{title}', post.title)

@@ -1,0 +1,26 @@
+{
+  "name": "blog2jekyll",
+  "version": "0.1.0",
+  "description": "Consuming JSON and piping out jekyll blog posts.",
+  "main": "blog2jekyll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/revjtanton/blog2jekyll.git"
+  },
+  "keywords": [
+    "drupal",
+    "wordpress",
+    "json",
+    "jekyll",
+    "node"
+  ],
+  "author": "revjtanton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/revjtanton/blog2jekyll/issues"
+  },
+  "homepage": "https://github.com/revjtanton/blog2jekyll#readme"
+}
